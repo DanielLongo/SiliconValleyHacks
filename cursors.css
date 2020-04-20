@@ -1,0 +1,33 @@
+html,
+body {
+    font-size: 0;
+    height: 100%;
+    margin: 0;
+    padding: 0;
+    width: 100%;
+}
+
+body {
+    /*Blur image link here*/
+    /*background: url(https://s8.postimg.cc/xr3yr47v9/roadblur.jpg) 0 0 / cover;*/
+    background: url("assets/img/blurry.png") 0 0 / cover;
+}
+
+img {
+    display: none;
+}
+
+
+.under {
+    position: absolute;
+    left: 0px;
+    top: 0px;
+    z-index: 0;
+}
+
+.over {
+    position: absolute;
+    left: 40px;
+    top: 10px;
+    z-index: 1;
+}
